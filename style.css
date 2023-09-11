@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+h1 {
+  font-family: Big Shoulders Display;
+  color: white;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 1rem 0 2rem;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+}
+.card-1 {
+  width: 300px;
+  padding: 35px;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 8px 0 0 8px;
+}
+
+.sedans-button {
+  color: hsl(31, 77%, 52%);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.sedans-button:hover {
+  border: 2px solid white;
+  background-color: hsl(31, 77%, 52%);
+ color:white;
+}
+.card-2 {
+  width: 300px;
+  padding: 35px;
+  background-color: hsl(184, 100%, 22%);
+}
+.suvs-button {
+  color: hsl(184, 100%, 22%);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.suvs-button:hover {
+  border: 2px solid white;
+  background-color: hsl(184, 100%, 22%);
+ color:white;
+}
+.card-3 {
+  width: 300px;
+  padding: 35px;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 8px 8px 0;
+}
+
+.luxury-button {
+  color: hsl(179, 100%, 13%);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.luxury-button:hover {
+  border: 2px solid white;
+  background-color: hsl(179, 100%, 13%);
+ color:white;
+}
